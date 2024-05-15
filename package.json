@@ -1,0 +1,9 @@
+{
+  "name": "parcel-issue-pnpm-monorepo",
+  "private": true,
+  "scripts": {},
+  "devDependencies": {
+    "@parcel/transformer-typescript-types": "2.12.0",
+    "typescript": ">=3.0.0"
+  }
+}
