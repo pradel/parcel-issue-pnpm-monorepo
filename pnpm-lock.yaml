@@ -6,17 +6,7 @@ settings:
 
 importers:
 
-  .:
-    devDependencies:
-      '@parcel/packager-ts':
-        specifier: 2.12.0
-        version: 2.12.0(@parcel/core@2.12.0(@swc/helpers@0.5.11))(@swc/helpers@0.5.11)
-      '@parcel/transformer-typescript-types':
-        specifier: 2.12.0
-        version: 2.12.0(@parcel/core@2.12.0(@swc/helpers@0.5.11))(@swc/helpers@0.5.11)(typescript@5.4.5)
-      typescript:
-        specifier: '>=3.0.0'
-        version: 5.4.5
+  .: {}
 
   packages/my-package-a:
     devDependencies:
